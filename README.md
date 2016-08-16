@@ -1,4 +1,4 @@
-# labaTv
+# Laba TV
 
 ### Install dependences
 ```sh
