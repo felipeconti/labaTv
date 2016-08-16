@@ -5,7 +5,7 @@
 npm install
 ```
 
-## Run
+### Run
 ```sh
 node server.js
 ```
