@@ -4,5 +4,11 @@ function getQueryStringValue (key) {
 
 //getQueryStringValue("editor") === 'true';
 
-// connection.readyState == 1
-// connection.send(JSON.stringify(msg));
+sendData = function sendData () {
+	if (connection.readyState == 1) {
+		var msg = {
+			data: document.getElementById("data_value").value
+		};
+		connection.send(JSON.stringify(msg));
+	}
+};

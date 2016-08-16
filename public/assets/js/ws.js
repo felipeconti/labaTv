@@ -6,5 +6,5 @@ connection.onerror = function (error) {
 
 connection.onmessage = function (message) {
     var msg = JSON.parse(message.data);
-    if (msg.data) editor.setValue(msg.data);
+    if (msg.data) document.getElementById("labatv").innerText = msg.data;
 };
